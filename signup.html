@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, viewport-fit=cover">
+  <title>곽경진 Assignment - sign up</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+  <div><img src="img/header.jpg" alt="모나미몰 상단"></div>
+  <div class="inner_wrap">
+    <div class="indicator">
+      <span>Home</span>
+      <span>회원가입</span>
+    </div>
+    <div class="title">
+      <h2>회원가입</h2>
+      <p>
+        <span>약관동의</span>
+        <span class="arrow"></span>
+        <span>정보입력</span>
+        <span class="arrow"></span>
+        <span>동의완료</span>
+      </p>
+    </div>
+    <section class="agreement">
+      <div class="first_wrap">
+          <div class="ag_title">
+            <h3>약관동의</h3>
+            <span>모든 이용약관/개인정보 수집 및 이용에 동의하셔야 회원가입이 가능합니다.</span>
+          </div>
+          <div class="checkbox_wrap">
+            <div class="check_top">
+              <p>
+                <label for="check1">
+                  <input type="checkbox" id="check1"> 모나미 통합쇼핑몰 이용약관 (필수)
+                </label>
+                <a href="#" class="btn">
+                  <span>전체약관보기</span>
+                  <span class="arrow check"></span>
+                </a>
+              </p>
+              <p>
+                <label for="check2">
+                  <input type="checkbox" id="check2"> 모나르떼관 통합회원 약관동의 (선택)
+                </label>
+                <a href="#" class="btn">
+                  <span>전체약관보기</span>
+                  <span class="arrow check"></span>
+                </a>
+              </p>
+            </div>
+            <div class="check_bottom">
+              <p>
+                <label for="check3">
+                  <input type="checkbox" id="check3"> 개인정보 수집 및 이용 동의 (필수)
+                </label>
+                <a href="#" class="btn">
+                  <span>내용보기</span>
+                  <span class="arrow check"></span>
+                </a>
+              </p>
+              <p>
+                <label for="check4">
+                  <input type="checkbox" id="check4"> 개인정보 제 3자 제동 동의 (필수)
+                </label>
+                <a href="#" class="btn">
+                  <span>내용보기</span>
+                  <span class="arrow check"></span>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="all_agree">
+            <label for="check5">
+              <input type="checkbox" id="check5"> 모든 내용을 확인하였으며 모나르떼 회원으로 가입됨에 동의합니다</label>
+            <p>※ 모나르떼 통합회원 약관에 동의하시면 모나르떼 사이트에도 자동으로 가입됩니다.</p>
+          </div>
+      </div>
+      <div class="email">
+        <p class="email_title">이메일/SMS수신여부</p>
+        <div class="radio_wrap">
+          <div>
+            <span class="reception">이메일 수신여부</span>
+            <p>
+              <input type="radio" name="email_answer" id="email_yes" checked>
+              <label for="email_yes"> 예</label>
+            </p>
+            <p>
+              <input type="radio" name="email_answer" id="email_no">
+              <label for="email_no">아니요</label>
+            </p>
+          </div>
+          <div>
+            <span class="reception">SMS 수신여부</span>
+            <p>
+              <input type="radio" name="sns_answer" id="sns_yes">
+              <label for="sns_yes">예</label>
+            </p>
+            <p>
+              <input type="radio" name="sns_answer" id="sns_no">
+              <label for="sns_no">아니요</label>
+            </p>
+          </div>
+        </div>
+        <p class="text">
+          <span>모나미 이메일/SMS 수신동의를 하시면 다양한 할인과 매거진, 이벤트, 신상품 등의 정보를 빠르게 받아보실 수 있습니다.</span>
+          <span>단, 주문 및 배송관련 정보는 수신동의와 관계없이 자동으로 발송됩니다.</span>
+        </p>
+        <p class="text">
+          <span>· 가입은 만 14세 이상부터 가능합니다.</span>
+          <span>· 모든 이용약관/개인정보 수집 및 이용에 동의하셔야 회원가입이 가능합니다.</span>
+        </p>
+      </div>
+      <div class="btn_wrap">
+        <input type="submit" value="가입하기" class="final_btn left">
+        <input type="submit" value="취소" class="final_btn right">
+      </div>
+    </section>
+    <section class="important">
+      <div class="impotant_title_wrap">
+        <h3>[약관 중요사항 고지]</h3>
+        <p class="text_deco">약관전문은 위의 이용약관 항목에 약관 전체보기로 게시되어 있습니다</p>
+      </div>
+      <div class="impotant_content_wrap text_deco">
+        <div class="each">
+          <p>(필수)모나미 통합쇼핑몰 이용약관</p>
+          <ol>
+            <li> 1.회원의 주소 또는 e-mail주소에 도달함으로써 회사의 통지는 유효하고, 회원 정보의 변경/미 변경에 대한 책임은 회원에게 있음. (제8조)</li>
+            <li> 2.약관이 정하는 부정거래 행위를 한 회원에 대하여 제재 조치 가능 예: 직거래, 경매 부정행위, 시스템 부정행위, 결제 부정행위, 재판매 목적의 거래행위 등. (제36조)</li>
+            <li> 3.모나미 통합쇼핑몰은 통신판매중개자로서 판매자와 구매자와의 거래에 관한 분쟁에 개입하지 않으며 어떠한 보증 및 책임도 부담하지 않음. (제6조, 제38조)</li>
+          </ol>
+        </div>
+        <div class="each">
+          <p>(필수) 개인정보 수집 및 이용동의</p>
+          <ol>
+            <li>1. 접근매체의 양도∙양수, 대여∙사용위임, 질권설정 기타 담보 제공 및 이의 알선과 접근매체를 제3자에게 누설∙노출,방치하는 것은 금지됨. (제17조, 제21조, 제23조)</li>
+            <li>2. 소비자가 재화 등을 공급받은 날부터 3 영업일이 지나도록 정당한 사유의 제시 없이 그 공급받은 사실을 통보하지 않는 경우 소비자의 동의 없이 판매자에게 결제대금을 지급할 수 있으며, 회사가 결제대금을 지급하기 전에 소비자가 그 결제대금을 환급 받을 사유가 발생한 경우 이를 소비자에게 환급함. (제19조)</li>
+          </ol>
+        </div>
+        <div class="each">
+          <p>(필수) 개인정보 제3자 동의</p>
+          <table>
+            <caption>(필수) 개인정보 제3자 동의</caption>
+            <tr>
+              <th>목적</th>
+              <th>항목</th>
+              <th>보유기간</th>
+            </tr>
+            <tr>
+              <td>본인여부 확인, 연령제한서비스 제공, SSO연동</td>
+              <td>이름, 아이디, 비밀번호, 휴대폰번호, 이메일주소</td>
+              <td rowspan="3">회원탈퇴후 5일 이내 또는 법령에 따른 보존기간</td>
+            </tr>
+            <tr>
+              <td>계약이행 및 약관변경 등의 고지를 위한 연락, 본인의사확인 등 고객불만처리</td>
+              <td>이름, 아이디, 휴대폰번호, 이메일주소, 전화번호, 주소</td>
+            </tr>
+            <tr>
+              <td>부정 이용 방지, 비인가 사용방지, 서비스 제공 및 계약의 이행</td>
+              <td>방문일시, 서비스 이용 기록 및 기기정보</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p>(필수)모나르떼 통합회원 약관 동의</p>
+          <ol>
+            <li>1.회원의 주소 또는 e-mail주소에 도달함으로써 회사의 통지는 유효하고, 회원 정보의 변경/미 변경에 대한 책임은 회원에게 있음. (제8조)</li>
+            <li>2.약관이 정하는 부정거래 행위를 한 회원에 대하여 제재 조치 가능 예: 직거래, 경매 부정행위, 시스템 부정행위, 결제 부정행위, 재판매 목적의 거래행위 등. (제32조)</li>
+            <li>3.모나미 통합쇼핑몰은 통신판매중개자로서 판매자와 구매자와의 거래에 관한 분쟁에 개입하지 않으며 어떠한 보증 및 책임도 부담하지 않음. (제6조, 제38조)</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div><img src="img/footer.jpg" alt="모나미몰 하단"></div>
+</div>
+</body>
+</html>
